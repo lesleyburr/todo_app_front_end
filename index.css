@@ -1,3 +1,16 @@
+html {
+    font-family: sans-serif;
+    font-weight: 300;
+}
+
+body {
+    padding: 40px;
+}
+
+h1 {
+    font-weight: 400;
+}
+
 ul {
   list-style-type: none;
 }
@@ -16,9 +29,39 @@ li{
     font-size: 12px;
     padding: 5px 10px 5px 10px;
     text-transform: uppercase;
+    letter-spacing: .5px;
+    margin-left: 10px;
 }
 
-#add-new-todo-button {
-    padding: 5px 10px 5px 10px;
-    color: #999;
+a {
+    text-decoration: none;
+}
+
+#add-new-button {
+    padding: 8px 20px 8px 20px;
+    color: #fff;
+    background-color: #00A4BD;
+    border-radius: 3px;
+    font-weight: bold;
+    font-size: 16px;
+    margin-bottom: 20px;
+    
+}
+
+#add-text-field {
+    padding: 10px 20px 10px 20px;
+    margin-right: 8px;
+    width: 400px;
+    margin-bottom: 20px;
+}
+
+#add-time-field {
+    padding: 10px 20px 10px 20px;
+    margin-right: 8px;
+    width: 200px;
+    margin-bottom: 20px;
+}
+
+.checkbox-style {
+    margin-right: 8px;
 }
