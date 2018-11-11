@@ -96,3 +96,8 @@ a {
 .checkbox-style {
     margin-right: 8px;
 }
+
+
+.completed-todo{
+  text-decoration: line-through;
+}

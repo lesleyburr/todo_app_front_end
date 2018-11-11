@@ -3,6 +3,8 @@
 <head>
     <title>Lesley's Wedding Planning Todo List</title>
     <link rel="stylesheet" href="index.css" type="text/css"/>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script type="text/javascript" src="index.js"></script>
 </head>
 
 <body>
@@ -10,9 +12,11 @@
     
     <div class="main-action">
         <h2>Add another todo</h2>
-    <input id="add-text-field" type="text" placeholder="Enter todo">
-    <input id="add-time-field" type="number" placeholder="Estimated time">
-    <input id="add-new-button" type="submit" value="Add">
+    <div id="new-todo-block">
+        <input id="add-text-field" type="text" placeholder="Enter todo">
+        <input id="add-time-field" type="number" placeholder="Estimated time">
+        <input id="add-new-button" type="submit" value="Add">
+    </div>
     </div>
     
     <div class="row">
