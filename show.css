@@ -1,0 +1,44 @@
+html {
+    font-family: sans-serif;
+    font-weight: 300;
+}
+
+body {
+    padding: 40px;
+}
+
+h1 {
+    font-weight: 400;
+}
+
+.nav {
+    font-size: 20px;
+    padding-bottom: 40px;
+    text-decoration: none;
+    list-style-type: none;
+    display: inline-block;
+}
+
+.nav li{
+    display: inline-block;
+}
+
+.time-estimate{
+    background-color: #F5C26B;
+    font-weight: bold;
+    color: #FFF;
+    border-radius: 50px;
+    font-size: 12px;
+    padding: 5px 10px 5px 10px;
+    text-transform: uppercase;
+    letter-spacing: .5px;
+    margin-left: 10px;
+}
+
+a {
+    text-decoration: none;
+}
+
+.checkbox-style {
+    margin-right: 8px;
+}

@@ -45,20 +45,26 @@ a {
     font-weight: bold;
     font-size: 16px;
     margin-bottom: 20px;
-    
+    text-align:center;
+}
+
+#add-new-button:hover{
+  background-color: #fff;
+  color: #00A4BD;
+  border-color: #00A4BD;
 }
 
 #add-text-field {
     padding: 10px 20px 10px 20px;
     margin-right: 8px;
-    width: 400px;
+    width: 50%;
     margin-bottom: 20px;
 }
 
 #add-time-field {
     padding: 10px 20px 10px 20px;
     margin-right: 8px;
-    width: 200px;
+    width: 30%; 
     margin-bottom: 20px;
 }
 
