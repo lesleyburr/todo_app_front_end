@@ -11,11 +11,90 @@ h1 {
     font-weight: 400;
 }
 
-h2{
-  display: inline-block;
-  vertical-align: middle;
-  font-size: 45px;
-  margin: 20px 0px;
+ul {
+  list-style-type: none;
+}
+
+li{
+    font-size: 20px;
+    padding-bottom: 40px;
+    text-decoration: none;
+}
+
+.time-estimate{
+    background-color: #F5C26B;
+    font-weight: bold;
+    color: #FFF;
+    border-radius: 50px;
+    font-size: 12px;
+    padding: 5px 10px 5px 10px;
+    text-transform: uppercase;
+    letter-spacing: .5px;
+    margin-left: 10px;
+}
+
+a {
+    text-decoration: none;
+}
+
+.main-action {
+    background-color: #eee;
+    border: 1px solid #ccc;
+    padding: 20px 30px 20px 30px;
+    margin-bottom: 40px;
+}
+
+.row {
+    background-color: #eee;
+    padding: 20px 40px 20px 40px;
+}
+
+.column {
+    float: left;
+    width: 50%;
+    margin-bottom: 40px;
+}
+
+/* Clear floats after the columns */
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+#add-new-button {
+    padding: 8px 20px 8px 20px;
+    color: #fff;
+    background-color: #00A4BD;
+    border-radius: 3px;
+    font-weight: bold;
+    font-size: 16px;
+    margin-bottom: 20px;
+    text-align:center;
+}
+
+#add-new-button:hover{
+  background-color: #fff;
+  color: #00A4BD;
+  border-color: #00A4BD;
+}
+
+#add-text-field {
+    padding: 10px 20px 10px 20px;
+    margin-right: 8px;
+    width: 50%;
+    margin-bottom: 20px;
+}
+
+#add-time-field {
+    padding: 10px 20px 10px 20px;
+    margin-right: 8px;
+    width: 30%; 
+    margin-bottom: 20px;
+}
+
+.checkbox-style {
+    margin-right: 8px;
 }
 
 .nav a{
