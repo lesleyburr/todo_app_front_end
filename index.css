@@ -4,7 +4,7 @@ html {
 }
 
 body {
-    padding: 40px;
+    padding: 100px;
 }
 
 h1 {
@@ -35,6 +35,31 @@ li{
 
 a {
     text-decoration: none;
+}
+
+.main-action {
+    background-color: #eee;
+    border: 1px solid #ccc;
+    padding: 20px 30px 20px 30px;
+    margin-bottom: 40px;
+}
+
+.row {
+    background-color: #eee;
+    padding: 20px 40px 20px 40px;
+}
+
+.column {
+    float: left;
+    width: 50%;
+    margin-bottom: 40px;
+}
+
+/* Clear floats after the columns */
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
 }
 
 #add-new-button {
