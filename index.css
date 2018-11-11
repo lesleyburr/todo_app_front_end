@@ -1,0 +1,24 @@
+ul {
+  list-style-type: none;
+}
+
+li{
+    font-size: 20px;
+    padding-bottom: 40px;
+    text-decoration: none;
+}
+
+.time-estimate{
+    background-color: #F5C26B;
+    font-weight: bold;
+    color: #FFF;
+    border-radius: 50px;
+    font-size: 12px;
+    padding: 5px 10px 5px 10px;
+    text-transform: uppercase;
+}
+
+#add-new-todo-button {
+    padding: 5px 10px 5px 10px;
+    color: #999;
+}
